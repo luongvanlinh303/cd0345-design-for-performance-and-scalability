@@ -1,0 +1,7 @@
+- Scale Out the ec2 instance and load balancer: Provide high availability for the application due to more computational capacity when changing for
+larger instance type. Even if Northern Virginia region is completely down, application will be up and running in Oregon Region.
+- Add RDS database instances in Oregon Region: In order to reduce latency for end users when accessing the application, we add database replicas. For example, Read Replica can be in the Oregon region.
+Allow you to elastically scale out beyond the capacity constraints of a single DB instance for
+read-heavy database workloads.
+- Add resources to RDS: Improve database performance because provides a cost-effective way to increase storage capacity and would be useful in case of huge traffic on the application.
+Resource upgrades are generally easy to implement and manage.

@@ -1,0 +1,6 @@
+- Instance Type: The performance can be reduced due to small resources. However, we still can scale
+if we want to. (from t2.xlarge to t2.large ($898.5 -> $479.75)
+- Model Pricing: Reserving instances for 1 year will reduce cost for the architecture. However, we lock the application
+platform to use the same infrastructure for one year. Nevertheless, more resources can be added due
+to elasticity. (from on-demand to standard)
+- Scale Down RDS Instance: We will have performance issues in the database because reducing the computational capacity. But, it can be bearable.
